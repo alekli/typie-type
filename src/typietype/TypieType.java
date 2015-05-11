@@ -5,6 +5,8 @@
  */
 package typietype;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Klingberg
@@ -15,7 +17,12 @@ public class TypieType {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        TTStartFrame startFrame = new TTStartFrame();
+        startFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        startFrame.setVisible(true);
+        
     }
     
 }
