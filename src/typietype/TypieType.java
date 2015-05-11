@@ -21,6 +21,7 @@ public class TypieType {
         TTStartFrame startFrame = new TTStartFrame();
         startFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         startFrame.setSize(800, 600);
+        
         startFrame.setVisible(true);
         
     }

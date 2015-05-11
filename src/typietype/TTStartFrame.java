@@ -34,22 +34,11 @@ public class TTStartFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-<<<<<<< Updated upstream
-        jButton1.setText("jButton1");
-=======
-        jTextPane1.setFont(new java.awt.Font("Impact", 0, 48)); // NOI18N
-        jTextPane1.setText("TypieType¡");
-        jScrollPane1.setViewportView(jTextPane1);
-
-        jTextPane2.setFont(new java.awt.Font("Impact", 0, 24)); // NOI18N
-        jTextPane2.setText("Svårighetsgrad");
-        jScrollPane2.setViewportView(jTextPane2);
+        setTitle("TypieType¡");
 
         jButton1.setFont(new java.awt.Font("Impact", 0, 13)); // NOI18N
         jButton1.setText("Lätt");
         jButton1.setBorder(null);
->>>>>>> Stashed changes
         jButton1.setMaximumSize(new java.awt.Dimension(98, 29));
         jButton1.setMinimumSize(new java.awt.Dimension(98, 29));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
